@@ -1,0 +1,934 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34427C8C07CB55004E61BF55 /* Pods_notificationsvc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF5B7EB9512FF8102DDD57F6 /* Pods_notificationsvc.framework */; };
+		64240D3F2D6E284D00BE01B2 /* SdkPushExpress in Frameworks */ = {isa = PBXBuildFile; productRef = 64240D3E2D6E284D00BE01B2 /* SdkPushExpress */; };
+		64240D422D6E286500BE01B2 /* FlagsmithClient in Frameworks */ = {isa = PBXBuildFile; productRef = 64240D412D6E286500BE01B2 /* FlagsmithClient */; };
+		64240D4B2D6E2B7D00BE01B2 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64240D4A2D6E2B7D00BE01B2 /* NotificationService.swift */; };
+		64240D4F2D6E2B7D00BE01B2 /* notificationsvc.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 64240D482D6E2B7D00BE01B2 /* notificationsvc.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		64240D562D6E2B8700BE01B2 /* SdkPushExpress in Frameworks */ = {isa = PBXBuildFile; productRef = 64240D552D6E2B8700BE01B2 /* SdkPushExpress */; };
+		644235532D6A3D0C005398DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644235522D6A3D0C005398DE /* AppDelegate.swift */; };
+		644235552D6A3D0C005398DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644235542D6A3D0C005398DE /* SceneDelegate.swift */; };
+		644235572D6A3D0C005398DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644235562D6A3D0C005398DE /* ViewController.swift */; };
+		6442355A2D6A3D0C005398DE /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 644235592D6A3D0C005398DE /* Base */; };
+		6442355C2D6A3D0D005398DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6442355B2D6A3D0D005398DE /* Assets.xcassets */; };
+		6442355F2D6A3D0D005398DE /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 6442355E2D6A3D0D005398DE /* Base */; };
+		644235692D6A3FA4005398DE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644235682D6A3FA4005398DE /* HomeView.swift */; };
+		6442356C2D6A41E7005398DE /* Cinzel-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6442356B2D6A41E7005398DE /* Cinzel-Regular.ttf */; };
+		644235702D6A41F1005398DE /* Macedonia.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6442356D2D6A41F1005398DE /* Macedonia.ttf */; };
+		644235712D6A41F1005398DE /* Macedonia 3D Filled.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6442356E2D6A41F1005398DE /* Macedonia 3D Filled.ttf */; };
+		644235722D6A41F1005398DE /* Macedonia Old.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6442356F2D6A41F1005398DE /* Macedonia Old.ttf */; };
+		644235752D6A4A91005398DE /* FirstBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644235742D6A4A91005398DE /* FirstBackgroundView.swift */; };
+		644235782D6A6034005398DE /* EraSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644235772D6A6034005398DE /* EraSelectionView.swift */; };
+		6442357B2D6A8E00005398DE /* LevelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6442357A2D6A8E00005398DE /* LevelsView.swift */; };
+		6442357E2D6A93D7005398DE /* PuzzleGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6442357D2D6A93D7005398DE /* PuzzleGame.swift */; };
+		644235812D6B5CF5005398DE /* ArtCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644235802D6B5CF5005398DE /* ArtCollectionView.swift */; };
+		644235842D6B64B9005398DE /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644235832D6B64B9005398DE /* ShopView.swift */; };
+		644235862D6B67AE005398DE /* ShopButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644235852D6B67AE005398DE /* ShopButton.swift */; };
+		644235892D6B6901005398DE /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644235882D6B6901005398DE /* SettingsView.swift */; };
+		6442358C2D6B6E0F005398DE /* FirstGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6442358B2D6B6E0F005398DE /* FirstGameView.swift */; };
+		6442358F2D6B70AF005398DE /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6442358E2D6B70AF005398DE /* DataManager.swift */; };
+		644235922D6C7389005398DE /* SecondGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644235912D6C7389005398DE /* SecondGameView.swift */; };
+		644235952D6C8281005398DE /* ThirdGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644235942D6C8281005398DE /* ThirdGameView.swift */; };
+		644235982D6C8BC7005398DE /* FourthGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644235972D6C8BC7005398DE /* FourthGameView.swift */; };
+		6442359B2D6D089C005398DE /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6442359A2D6D089C005398DE /* AudioManager.swift */; };
+		6442359D2D6D0B7A005398DE /* mainTheme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6442359C2D6D0B7A005398DE /* mainTheme.mp3 */; };
+		6442359F2D6D0B97005398DE /* Managment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6442359E2D6D0B97005398DE /* Managment.swift */; };
+		644235A22D6D0FAB005398DE /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644235A12D6D0FAB005398DE /* StartView.swift */; };
+		644235A42D6D168F005398DE /* slide.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 644235A32D6D168E005398DE /* slide.mp3 */; };
+		644235A62D6D1C1A005398DE /* EnergyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644235A52D6D1C1A005398DE /* EnergyView.swift */; };
+		644D31DF2D6E305300B3083B /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 644D31DE2D6E305300B3083B /* Localizable.xcstrings */; };
+		8ED401415A6E142FCE684C9B /* Pods_CresusRelic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BF3F91C8E4F91990EF9AF46 /* Pods_CresusRelic.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64240D4D2D6E2B7D00BE01B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 644235472D6A3D0C005398DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64240D472D6E2B7D00BE01B2;
+			remoteInfo = notificationsvc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		64240D532D6E2B7D00BE01B2 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				64240D4F2D6E2B7D00BE01B2 /* notificationsvc.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2637C6ADB2F970AA35739F48 /* Pods-notificationsvc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-notificationsvc.debug.xcconfig"; path = "Target Support Files/Pods-notificationsvc/Pods-notificationsvc.debug.xcconfig"; sourceTree = "<group>"; };
+		2BF3F91C8E4F91990EF9AF46 /* Pods_CresusRelic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CresusRelic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64240D432D6E2B4F00BE01B2 /* CresusRelic.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CresusRelic.entitlements; sourceTree = "<group>"; };
+		64240D482D6E2B7D00BE01B2 /* notificationsvc.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = notificationsvc.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		64240D4A2D6E2B7D00BE01B2 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		64240D4C2D6E2B7D00BE01B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6442354F2D6A3D0C005398DE /* CresusRelic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CresusRelic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		644235522D6A3D0C005398DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		644235542D6A3D0C005398DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		644235562D6A3D0C005398DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		644235592D6A3D0C005398DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6442355B2D6A3D0D005398DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6442355E2D6A3D0D005398DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		644235602D6A3D0D005398DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		644235682D6A3FA4005398DE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		6442356B2D6A41E7005398DE /* Cinzel-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cinzel-Regular.ttf"; sourceTree = "<group>"; };
+		6442356D2D6A41F1005398DE /* Macedonia.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Macedonia.ttf; sourceTree = "<group>"; };
+		6442356E2D6A41F1005398DE /* Macedonia 3D Filled.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Macedonia 3D Filled.ttf"; sourceTree = "<group>"; };
+		6442356F2D6A41F1005398DE /* Macedonia Old.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Macedonia Old.ttf"; sourceTree = "<group>"; };
+		644235742D6A4A91005398DE /* FirstBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstBackgroundView.swift; sourceTree = "<group>"; };
+		644235772D6A6034005398DE /* EraSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EraSelectionView.swift; sourceTree = "<group>"; };
+		6442357A2D6A8E00005398DE /* LevelsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelsView.swift; sourceTree = "<group>"; };
+		6442357D2D6A93D7005398DE /* PuzzleGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleGame.swift; sourceTree = "<group>"; };
+		644235802D6B5CF5005398DE /* ArtCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCollectionView.swift; sourceTree = "<group>"; };
+		644235832D6B64B9005398DE /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
+		644235852D6B67AE005398DE /* ShopButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopButton.swift; sourceTree = "<group>"; };
+		644235882D6B6901005398DE /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		6442358B2D6B6E0F005398DE /* FirstGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstGameView.swift; sourceTree = "<group>"; };
+		6442358E2D6B70AF005398DE /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		644235912D6C7389005398DE /* SecondGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondGameView.swift; sourceTree = "<group>"; };
+		644235942D6C8281005398DE /* ThirdGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdGameView.swift; sourceTree = "<group>"; };
+		644235972D6C8BC7005398DE /* FourthGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthGameView.swift; sourceTree = "<group>"; };
+		6442359A2D6D089C005398DE /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		6442359C2D6D0B7A005398DE /* mainTheme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mainTheme.mp3; sourceTree = "<group>"; };
+		6442359E2D6D0B97005398DE /* Managment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Managment.swift; sourceTree = "<group>"; };
+		644235A12D6D0FAB005398DE /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		644235A32D6D168E005398DE /* slide.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = slide.mp3; sourceTree = "<group>"; };
+		644235A52D6D1C1A005398DE /* EnergyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnergyView.swift; sourceTree = "<group>"; };
+		644D31DE2D6E305300B3083B /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		66BEDFCD4A9537978A479E8F /* Pods-CresusRelic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CresusRelic.release.xcconfig"; path = "Target Support Files/Pods-CresusRelic/Pods-CresusRelic.release.xcconfig"; sourceTree = "<group>"; };
+		920BEB36FC17CAD53AA920D5 /* Pods-notificationsvc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-notificationsvc.release.xcconfig"; path = "Target Support Files/Pods-notificationsvc/Pods-notificationsvc.release.xcconfig"; sourceTree = "<group>"; };
+		F56B4BFF4600FE0B3A5D61FB /* Pods-CresusRelic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CresusRelic.debug.xcconfig"; path = "Target Support Files/Pods-CresusRelic/Pods-CresusRelic.debug.xcconfig"; sourceTree = "<group>"; };
+		FF5B7EB9512FF8102DDD57F6 /* Pods_notificationsvc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_notificationsvc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64240D452D6E2B7D00BE01B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64240D562D6E2B8700BE01B2 /* SdkPushExpress in Frameworks */,
+				34427C8C07CB55004E61BF55 /* Pods_notificationsvc.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6442354C2D6A3D0C005398DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64240D3F2D6E284D00BE01B2 /* SdkPushExpress in Frameworks */,
+				64240D422D6E286500BE01B2 /* FlagsmithClient in Frameworks */,
+				8ED401415A6E142FCE684C9B /* Pods_CresusRelic.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64240D492D6E2B7D00BE01B2 /* notificationsvc */ = {
+			isa = PBXGroup;
+			children = (
+				64240D4A2D6E2B7D00BE01B2 /* NotificationService.swift */,
+				64240D4C2D6E2B7D00BE01B2 /* Info.plist */,
+			);
+			path = notificationsvc;
+			sourceTree = "<group>";
+		};
+		64240D542D6E2B8700BE01B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BF3F91C8E4F91990EF9AF46 /* Pods_CresusRelic.framework */,
+				FF5B7EB9512FF8102DDD57F6 /* Pods_notificationsvc.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		644235462D6A3D0C005398DE = {
+			isa = PBXGroup;
+			children = (
+				644235512D6A3D0C005398DE /* CresusRelic */,
+				64240D492D6E2B7D00BE01B2 /* notificationsvc */,
+				644235502D6A3D0C005398DE /* Products */,
+				64240D542D6E2B8700BE01B2 /* Frameworks */,
+				79662246C6E88BF081D8F8AA /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		644235502D6A3D0C005398DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6442354F2D6A3D0C005398DE /* CresusRelic.app */,
+				64240D482D6E2B7D00BE01B2 /* notificationsvc.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		644235512D6A3D0C005398DE /* CresusRelic */ = {
+			isa = PBXGroup;
+			children = (
+				64240D432D6E2B4F00BE01B2 /* CresusRelic.entitlements */,
+				644235A02D6D0F9E005398DE /* Start */,
+				644235992D6D0889005398DE /* AudioManager */,
+				644235962D6C8BBD005398DE /* FourthGame */,
+				644235932D6C8279005398DE /* ThirdGame */,
+				644235902D6C737F005398DE /* SecondGame */,
+				6442358D2D6B70A8005398DE /* DataManager */,
+				6442358A2D6B6D73005398DE /* FirstGame */,
+				644235872D6B68FB005398DE /* Settings */,
+				644235822D6B64A8005398DE /* Shop */,
+				6442357F2D6B5CEA005398DE /* ArtCollection */,
+				6442357C2D6A93CF005398DE /* Puzle */,
+				644235792D6A8DF0005398DE /* Levels */,
+				644235762D6A602B005398DE /* EraSelection */,
+				644235732D6A4A80005398DE /* Components */,
+				6442356A2D6A41CC005398DE /* Fonts */,
+				644235672D6A3F9C005398DE /* Home */,
+				644235662D6A3DF1005398DE /* Delegate */,
+				644235582D6A3D0C005398DE /* Main.storyboard */,
+				6442355B2D6A3D0D005398DE /* Assets.xcassets */,
+				6442355D2D6A3D0D005398DE /* LaunchScreen.storyboard */,
+				644235602D6A3D0D005398DE /* Info.plist */,
+			);
+			path = CresusRelic;
+			sourceTree = "<group>";
+		};
+		644235662D6A3DF1005398DE /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				644235522D6A3D0C005398DE /* AppDelegate.swift */,
+				644235542D6A3D0C005398DE /* SceneDelegate.swift */,
+				644235562D6A3D0C005398DE /* ViewController.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		644235672D6A3F9C005398DE /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				644235682D6A3FA4005398DE /* HomeView.swift */,
+				6442359E2D6D0B97005398DE /* Managment.swift */,
+				644235A52D6D1C1A005398DE /* EnergyView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		6442356A2D6A41CC005398DE /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				6442356E2D6A41F1005398DE /* Macedonia 3D Filled.ttf */,
+				6442356F2D6A41F1005398DE /* Macedonia Old.ttf */,
+				6442356D2D6A41F1005398DE /* Macedonia.ttf */,
+				6442356B2D6A41E7005398DE /* Cinzel-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		644235732D6A4A80005398DE /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				644235742D6A4A91005398DE /* FirstBackgroundView.swift */,
+				644D31DE2D6E305300B3083B /* Localizable.xcstrings */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		644235762D6A602B005398DE /* EraSelection */ = {
+			isa = PBXGroup;
+			children = (
+				644235772D6A6034005398DE /* EraSelectionView.swift */,
+			);
+			path = EraSelection;
+			sourceTree = "<group>";
+		};
+		644235792D6A8DF0005398DE /* Levels */ = {
+			isa = PBXGroup;
+			children = (
+				6442357A2D6A8E00005398DE /* LevelsView.swift */,
+			);
+			path = Levels;
+			sourceTree = "<group>";
+		};
+		6442357C2D6A93CF005398DE /* Puzle */ = {
+			isa = PBXGroup;
+			children = (
+				6442357D2D6A93D7005398DE /* PuzzleGame.swift */,
+			);
+			path = Puzle;
+			sourceTree = "<group>";
+		};
+		6442357F2D6B5CEA005398DE /* ArtCollection */ = {
+			isa = PBXGroup;
+			children = (
+				644235802D6B5CF5005398DE /* ArtCollectionView.swift */,
+			);
+			path = ArtCollection;
+			sourceTree = "<group>";
+		};
+		644235822D6B64A8005398DE /* Shop */ = {
+			isa = PBXGroup;
+			children = (
+				644235832D6B64B9005398DE /* ShopView.swift */,
+				644235852D6B67AE005398DE /* ShopButton.swift */,
+			);
+			path = Shop;
+			sourceTree = "<group>";
+		};
+		644235872D6B68FB005398DE /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				644235882D6B6901005398DE /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		6442358A2D6B6D73005398DE /* FirstGame */ = {
+			isa = PBXGroup;
+			children = (
+				6442358B2D6B6E0F005398DE /* FirstGameView.swift */,
+			);
+			path = FirstGame;
+			sourceTree = "<group>";
+		};
+		6442358D2D6B70A8005398DE /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				6442358E2D6B70AF005398DE /* DataManager.swift */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		644235902D6C737F005398DE /* SecondGame */ = {
+			isa = PBXGroup;
+			children = (
+				644235912D6C7389005398DE /* SecondGameView.swift */,
+			);
+			path = SecondGame;
+			sourceTree = "<group>";
+		};
+		644235932D6C8279005398DE /* ThirdGame */ = {
+			isa = PBXGroup;
+			children = (
+				644235942D6C8281005398DE /* ThirdGameView.swift */,
+			);
+			path = ThirdGame;
+			sourceTree = "<group>";
+		};
+		644235962D6C8BBD005398DE /* FourthGame */ = {
+			isa = PBXGroup;
+			children = (
+				644235972D6C8BC7005398DE /* FourthGameView.swift */,
+			);
+			path = FourthGame;
+			sourceTree = "<group>";
+		};
+		644235992D6D0889005398DE /* AudioManager */ = {
+			isa = PBXGroup;
+			children = (
+				6442359C2D6D0B7A005398DE /* mainTheme.mp3 */,
+				644235A32D6D168E005398DE /* slide.mp3 */,
+				6442359A2D6D089C005398DE /* AudioManager.swift */,
+			);
+			path = AudioManager;
+			sourceTree = "<group>";
+		};
+		644235A02D6D0F9E005398DE /* Start */ = {
+			isa = PBXGroup;
+			children = (
+				644235A12D6D0FAB005398DE /* StartView.swift */,
+			);
+			path = Start;
+			sourceTree = "<group>";
+		};
+		79662246C6E88BF081D8F8AA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F56B4BFF4600FE0B3A5D61FB /* Pods-CresusRelic.debug.xcconfig */,
+				66BEDFCD4A9537978A479E8F /* Pods-CresusRelic.release.xcconfig */,
+				2637C6ADB2F970AA35739F48 /* Pods-notificationsvc.debug.xcconfig */,
+				920BEB36FC17CAD53AA920D5 /* Pods-notificationsvc.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64240D472D6E2B7D00BE01B2 /* notificationsvc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64240D502D6E2B7D00BE01B2 /* Build configuration list for PBXNativeTarget "notificationsvc" */;
+			buildPhases = (
+				A02645F88A39ACCD6F370D1A /* [CP] Check Pods Manifest.lock */,
+				64240D442D6E2B7D00BE01B2 /* Sources */,
+				64240D452D6E2B7D00BE01B2 /* Frameworks */,
+				64240D462D6E2B7D00BE01B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = notificationsvc;
+			packageProductDependencies = (
+				64240D552D6E2B8700BE01B2 /* SdkPushExpress */,
+			);
+			productName = notificationsvc;
+			productReference = 64240D482D6E2B7D00BE01B2 /* notificationsvc.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		6442354E2D6A3D0C005398DE /* CresusRelic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 644235632D6A3D0D005398DE /* Build configuration list for PBXNativeTarget "CresusRelic" */;
+			buildPhases = (
+				38BDA037B1E0C0224D3C3F73 /* [CP] Check Pods Manifest.lock */,
+				6442354B2D6A3D0C005398DE /* Sources */,
+				6442354C2D6A3D0C005398DE /* Frameworks */,
+				6442354D2D6A3D0C005398DE /* Resources */,
+				64240D532D6E2B7D00BE01B2 /* Embed Foundation Extensions */,
+				8AE1F3DF2E6014ED922E0ABC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64240D4E2D6E2B7D00BE01B2 /* PBXTargetDependency */,
+			);
+			name = CresusRelic;
+			packageProductDependencies = (
+				64240D3E2D6E284D00BE01B2 /* SdkPushExpress */,
+				64240D412D6E286500BE01B2 /* FlagsmithClient */,
+			);
+			productName = CresusRelic;
+			productReference = 6442354F2D6A3D0C005398DE /* CresusRelic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		644235472D6A3D0C005398DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					64240D472D6E2B7D00BE01B2 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					6442354E2D6A3D0C005398DE = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 6442354A2D6A3D0C005398DE /* Build configuration list for PBXProject "CresusRelic" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				fr,
+				it,
+				de,
+			);
+			mainGroup = 644235462D6A3D0C005398DE;
+			packageReferences = (
+				64240D3D2D6E284D00BE01B2 /* XCRemoteSwiftPackageReference "pushexpress-swift-sdk" */,
+				64240D402D6E286500BE01B2 /* XCRemoteSwiftPackageReference "flagsmith-ios-client" */,
+			);
+			productRefGroup = 644235502D6A3D0C005398DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6442354E2D6A3D0C005398DE /* CresusRelic */,
+				64240D472D6E2B7D00BE01B2 /* notificationsvc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64240D462D6E2B7D00BE01B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6442354D2D6A3D0C005398DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6442355C2D6A3D0D005398DE /* Assets.xcassets in Resources */,
+				644235A42D6D168F005398DE /* slide.mp3 in Resources */,
+				644235712D6A41F1005398DE /* Macedonia 3D Filled.ttf in Resources */,
+				6442355F2D6A3D0D005398DE /* Base in Resources */,
+				6442359D2D6D0B7A005398DE /* mainTheme.mp3 in Resources */,
+				6442356C2D6A41E7005398DE /* Cinzel-Regular.ttf in Resources */,
+				644D31DF2D6E305300B3083B /* Localizable.xcstrings in Resources */,
+				6442355A2D6A3D0C005398DE /* Base in Resources */,
+				644235702D6A41F1005398DE /* Macedonia.ttf in Resources */,
+				644235722D6A41F1005398DE /* Macedonia Old.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		38BDA037B1E0C0224D3C3F73 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CresusRelic-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AE1F3DF2E6014ED922E0ABC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CresusRelic/Pods-CresusRelic-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CresusRelic/Pods-CresusRelic-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CresusRelic/Pods-CresusRelic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A02645F88A39ACCD6F370D1A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-notificationsvc-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64240D442D6E2B7D00BE01B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64240D4B2D6E2B7D00BE01B2 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6442354B2D6A3D0C005398DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				644235782D6A6034005398DE /* EraSelectionView.swift in Sources */,
+				644235572D6A3D0C005398DE /* ViewController.swift in Sources */,
+				644235812D6B5CF5005398DE /* ArtCollectionView.swift in Sources */,
+				6442358F2D6B70AF005398DE /* DataManager.swift in Sources */,
+				6442359F2D6D0B97005398DE /* Managment.swift in Sources */,
+				644235692D6A3FA4005398DE /* HomeView.swift in Sources */,
+				644235532D6A3D0C005398DE /* AppDelegate.swift in Sources */,
+				6442359B2D6D089C005398DE /* AudioManager.swift in Sources */,
+				6442357E2D6A93D7005398DE /* PuzzleGame.swift in Sources */,
+				644235862D6B67AE005398DE /* ShopButton.swift in Sources */,
+				644235982D6C8BC7005398DE /* FourthGameView.swift in Sources */,
+				644235A22D6D0FAB005398DE /* StartView.swift in Sources */,
+				6442357B2D6A8E00005398DE /* LevelsView.swift in Sources */,
+				6442358C2D6B6E0F005398DE /* FirstGameView.swift in Sources */,
+				644235922D6C7389005398DE /* SecondGameView.swift in Sources */,
+				644235552D6A3D0C005398DE /* SceneDelegate.swift in Sources */,
+				644235892D6B6901005398DE /* SettingsView.swift in Sources */,
+				644235842D6B64B9005398DE /* ShopView.swift in Sources */,
+				644235952D6C8281005398DE /* ThirdGameView.swift in Sources */,
+				644235752D6A4A91005398DE /* FirstBackgroundView.swift in Sources */,
+				644235A62D6D1C1A005398DE /* EnergyView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64240D4E2D6E2B7D00BE01B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64240D472D6E2B7D00BE01B2 /* notificationsvc */;
+			targetProxy = 64240D4D2D6E2B7D00BE01B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		644235582D6A3D0C005398DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				644235592D6A3D0C005398DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6442355D2D6A3D0D005398DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6442355E2D6A3D0D005398DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64240D512D6E2B7D00BE01B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2637C6ADB2F970AA35739F48 /* Pods-notificationsvc.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = notificationsvc/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = notificationsvc;
+				INFOPLIST_KEY_NSCameraUsageDescription = "The app requires camera access so you can scan the QR for hints.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CresusRelic.notificationsvc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64240D522D6E2B7D00BE01B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 920BEB36FC17CAD53AA920D5 /* Pods-notificationsvc.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = notificationsvc/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = notificationsvc;
+				INFOPLIST_KEY_NSCameraUsageDescription = "The app requires camera access so you can scan the QR for hints.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CresusRelic.notificationsvc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		644235612D6A3D0D005398DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		644235622D6A3D0D005398DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		644235642D6A3D0D005398DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F56B4BFF4600FE0B3A5D61FB /* Pods-CresusRelic.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CresusRelic/CresusRelic.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CresusRelic/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Cresus Relic";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CresusRelic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		644235652D6A3D0D005398DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66BEDFCD4A9537978A479E8F /* Pods-CresusRelic.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CresusRelic/CresusRelic.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CresusRelic/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Cresus Relic";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CresusRelic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64240D502D6E2B7D00BE01B2 /* Build configuration list for PBXNativeTarget "notificationsvc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64240D512D6E2B7D00BE01B2 /* Debug */,
+				64240D522D6E2B7D00BE01B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6442354A2D6A3D0C005398DE /* Build configuration list for PBXProject "CresusRelic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				644235612D6A3D0D005398DE /* Debug */,
+				644235622D6A3D0D005398DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		644235632D6A3D0D005398DE /* Build configuration list for PBXNativeTarget "CresusRelic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				644235642D6A3D0D005398DE /* Debug */,
+				644235652D6A3D0D005398DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		64240D3D2D6E284D00BE01B2 /* XCRemoteSwiftPackageReference "pushexpress-swift-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pushexpress/pushexpress-swift-sdk";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		64240D402D6E286500BE01B2 /* XCRemoteSwiftPackageReference "flagsmith-ios-client" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Flagsmith/flagsmith-ios-client.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.8.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		64240D3E2D6E284D00BE01B2 /* SdkPushExpress */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 64240D3D2D6E284D00BE01B2 /* XCRemoteSwiftPackageReference "pushexpress-swift-sdk" */;
+			productName = SdkPushExpress;
+		};
+		64240D412D6E286500BE01B2 /* FlagsmithClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 64240D402D6E286500BE01B2 /* XCRemoteSwiftPackageReference "flagsmith-ios-client" */;
+			productName = FlagsmithClient;
+		};
+		64240D552D6E2B8700BE01B2 /* SdkPushExpress */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 64240D3D2D6E284D00BE01B2 /* XCRemoteSwiftPackageReference "pushexpress-swift-sdk" */;
+			productName = SdkPushExpress;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 644235472D6A3D0C005398DE /* Project object */;
+}

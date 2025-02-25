@@ -1,0 +1,1079 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "" : {
+
+    },
+    "%lld" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        }
+      }
+    },
+    "100" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "100"
+          }
+        }
+      }
+    },
+    "A" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A"
+          }
+        }
+      }
+    },
+    "Artifact \nCollection" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Artifact\nCollection"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Artifact\nCollection"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Artifact\nCollection"
+          }
+        }
+      }
+    },
+    "ARTIFACT \nCollection" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ARTIFACT\nCollection"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ARTIFACT\nCollection"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ARTIFACT\nCollection"
+          }
+        }
+      }
+    },
+    "B" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "B"
+          }
+        }
+      }
+    },
+    "BUY" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "KAUFEN"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ACHETER"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ACQUISTA"
+          }
+        }
+      }
+    },
+    "C" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "C"
+          }
+        }
+      }
+    },
+    "Chest code" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Truhencode"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Code du coffre"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Codice della cassa"
+          }
+        }
+      }
+    },
+    "Claim Reward" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Belohnung einfordern"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Réclamer la récompense"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ritira la ricompensa"
+          }
+        }
+      }
+    },
+    "Close" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schließen"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fermer"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chiudi"
+          }
+        }
+      }
+    },
+    "Cresus" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cresus"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cresus"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cresus"
+          }
+        }
+      }
+    },
+    "D" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "D"
+          }
+        }
+      }
+    },
+    "E" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "E"
+          }
+        }
+      }
+    },
+    "Egypt" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ägypten"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Égypte"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Egitto"
+          }
+        }
+      }
+    },
+    "Energy Mechanic Description" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Energie-Mechanik-Beschreibung"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Description du mécanisme d'énergie"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Descrizione del meccanismo di energia"
+          }
+        }
+      }
+    },
+    "ERA SELECTION" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "EPOCHE AUSWAHL"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SÉLECTION D'ÈRE"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SELEZIONE EPOCA"
+          }
+        }
+      }
+    },
+    "Exit" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beenden"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quitter"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esci"
+          }
+        }
+      }
+    },
+    "F" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "F"
+          }
+        }
+      }
+    },
+    "FEEDBACK" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "FEEDBACK"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "RETOUR D'INFORMATION"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "FEEDBACK"
+          }
+        }
+      }
+    },
+    "Fully Completed %lld / 4" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vollständig abgeschlossen %lld / 4"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entièrement terminé %lld / 4"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Completato %lld / 4"
+          }
+        }
+      }
+    },
+    "Golden Maze" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Goldenes Labyrinth"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Labyrinthe doré"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Labirinto d'oro"
+          }
+        }
+      }
+    },
+    "Greece" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Griechenland"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Grèce"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Grecia"
+          }
+        }
+      }
+    },
+    "How many sides has a Lycian coin so fine?\n\nHow many sons bore the king of gold divine?\n\nHow many letters name the capital’s line?\n\nHow many foes did Cresus fell in one design?" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wie viele Seiten hat eine lykische Münze so fein?\n\nWie viele Söhne gebar der göttliche Goldkönig?\n\nWie viele Buchstaben hat die Linie der Hauptstadt?\n\nWie viele Feinde besiegte Cresus in einem Entwurf?"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Combien de côtés possède une pièce lycienne si fine ?\n\nCombien de fils a porté le roi d'or divin ?\n\nCombien de lettres composent le nom de la ligne de la capitale ?\n\nCombien d'ennemis Cresus a-t-il abattu en un seul dessein ?"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quanti lati ha una moneta licia così fine?\n\nQuanti figli ha generato il re d'oro divino?\n\nQuante lettere compongono il nome della linea della capitale?\n\nQuanti nemici ha sconfitto Cresus in un solo disegno?"
+          }
+        }
+      }
+    },
+    "In the game, energy is a crucial resource that depletes each time you complete or fail a level. To restore energy, you have two options: wait for a certain period or purchase it using in-game coins from the shop.\n\nEnergy automatically replenishes every 2 hours. When this happens, you will receive a push notification informing you that your energy has been restored." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Im Spiel ist Energie eine entscheidende Ressource, die jedes Mal abnimmt, wenn du eine Stufe abschließt oder nicht schaffst. Um Energie wiederherzustellen, hast du zwei Möglichkeiten: Warte eine bestimmte Zeit oder kaufe sie mit Spielmünzen im Shop.\n\nEnergie wird automatisch alle 2 Stunden wieder aufgefüllt. Wenn dies geschieht, erhältst du eine Push-Benachrichtigung, die dich darüber informiert, dass deine Energie wiederhergestellt wurde."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dans le jeu, l'énergie est une ressource cruciale qui diminue chaque fois que vous terminez ou échouez un niveau. Pour restaurer l'énergie, vous avez deux options : attendre un certain temps ou l'acheter en utilisant des pièces du jeu dans la boutique. L'énergie se reconstitue automatiquement toutes les 2 heures. Lorsque cela se produit, vous recevrez une notification push vous informant que votre énergie a été restaurée."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nel gioco, l'energia è una risorsa cruciale che si esaurisce ogni volta che completi o fallisci un livello. Per ripristinare l'energia, hai due opzioni: attendere un certo periodo di tempo o acquistarla utilizzando monete di gioco nel negozio.\n\nL'energia si ricarica automaticamente ogni 2 ore. Quando ciò accade, riceverai una notifica push che ti informerà che la tua energia è stata ripristinata."
+          }
+        }
+      }
+    },
+    "LOW ENERGY %lld" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "NIEDRIGE ENERGIE %lld"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ÉNERGIE FAIBLE %lld"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ENERGIA BASSA %lld"
+          }
+        }
+      }
+    },
+    "Lydia" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lydien"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lydie"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lidia"
+          }
+        }
+      }
+    },
+    "LYDIA" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "LYDIEN"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "LYDIE"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "LIDIA"
+          }
+        }
+      }
+    },
+    "LYDIA \nLEVELS" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "LYDIEN\nLEVELS"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "LYDIE\nNIVEAUX"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "LIDIA\nLIVELLI"
+          }
+        }
+      }
+    },
+    "Lydia was an ancient kingdom in western Anatolia, known for its rich gold deposits and as the birthplace of coinage. Flourishing between the 7th and 6th centuries BCE, it was ruled by the Mermnad dynasty, including the famous King Croesus. Lydia's capital, Sardis, became a major cultural and economic hub. The kingdom was eventually conquered by the Persian Empire in the mid-6th century BCE." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lydien war ein antikes Königreich in Westanatolien, bekannt für seine reichen Goldvorkommen und als Geburtsstätte der Münzprägung. Es blühte zwischen dem 7. und 6. Jahrhundert v. Chr. unter der Herrschaft der Mermnaden-Dynastie, zu der auch der berühmte König Krösus gehörte. Die Hauptstadt Lydiens, Sardes, wurde zu einem wichtigen kulturellen und wirtschaftlichen Zentrum. Das Königreich wurde schließlich Mitte des 6. Jahrhunderts v. Chr. vom Persischen Reich erobert."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La Lydie était un ancien royaume de l'Anatolie occidentale, connu pour ses riches dépôts d'or et comme le berceau de la monnaie. Florissant entre le VIIe et le VIe siècle avant notre ère, il était dirigé par la dynastie des Mermnades, dont le célèbre roi Crésus. La capitale de la Lydie, Sardes, est devenue un centre culturel et économique majeur. Le royaume a finalement été conquis par l'Empire perse au milieu du VIe siècle avant notre ère."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La Lidia era un antico regno dell'Anatolia occidentale, noto per i suoi ricchi depositi d'oro e per essere la culla della coniazione delle monete. Fiorì tra il VII e il VI secolo a.C., sotto il regno della dinastia Mermnadi, che includeva il famoso re Creso. La capitale della Lidia, Sardi, divenne un importante centro culturale ed economico. Il regno fu infine conquistato dall'Impero Persiano a metà del VI secolo a.C."
+          }
+        }
+      }
+    },
+    "Map of Lydia" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Karte von Lydien"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Carte de la Lydie"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mappa della Lidia"
+          }
+        }
+      }
+    },
+    "Mesopotamia" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mesopotamien"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mésopotamie"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mesopotamia"
+          }
+        }
+      }
+    },
+    "Next" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Weiter"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suivant"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avanti"
+          }
+        }
+      }
+    },
+    "Oops, looks like you're out of energy. \nYou can wait a while to accumulate it, or get it from the store." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hoppla, sieht so aus, als hättest du keine Energie mehr.\nDu kannst eine Weile warten, um sie aufzuladen, oder sie aus dem Shop holen."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oups, il semble que vous n'ayez plus d'énergie.\nVous pouvez attendre un moment pour en accumuler ou en obtenir dans la boutique."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ops, sembra che tu sia senza energia.\nPuoi aspettare un po' per accumularne, oppure ottenerla dal negozio."
+          }
+        }
+      }
+    },
+    "OPEN ARTIFACT" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ARTEFAKT ÖFFNEN"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OUVRIR ARTEFACT"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "APRI ARTEFATTO"
+          }
+        }
+      }
+    },
+    "OPEN CHEST" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "TRUHE ÖFFNEN"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OUVRIR LE COFFRE"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "APRI CASSETTA"
+          }
+        }
+      }
+    },
+    "PRIVACY POLICY" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "DATENSCHUTZERKLÄRUNG"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "POLITIQUE DE CONFIDENTIALITÉ"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "POLITICA SULLA PRIVACY"
+          }
+        }
+      }
+    },
+    "Puzzle Lydia's Map" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Puzzle Lydiens Karte"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Puzzle de la carte de la Lydie"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Puzzle della Mappa della Lidia"
+          }
+        }
+      }
+    },
+    "RATE US" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BEWERTE UNS"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "NOTEZ-NOUS"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VALUTACI"
+          }
+        }
+      }
+    },
+    "Relic" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Relic"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Relic"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Relic"
+          }
+        }
+      }
+    },
+    "Rome" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rom"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rome"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Roma"
+          }
+        }
+      }
+    },
+    "Secrets of Lydia" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geheimnisse Lydiens"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Secrets de la Lydie"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Segreti della Lidia"
+          }
+        }
+      }
+    },
+    "Select" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auswählen"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sélectionner"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seleziona"
+          }
+        }
+      }
+    },
+    "Settings" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Einstellungen"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paramètres"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Impostazioni"
+          }
+        }
+      }
+    },
+    "Settings \n" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Einstellungen"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paramètres"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Impostazioni"
+          }
+        }
+      }
+    },
+    "Shop" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Shop"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Boutique"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Negozio"
+          }
+        }
+      }
+    },
+    "Shop \n" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Shop"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Boutique"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Negozio"
+          }
+        }
+      }
+    },
+    "START JOURNEY" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "REISE STARTEN"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "COMMENCER LE VOYAGE"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "INIZIA IL VIAGGIO"
+          }
+        }
+      }
+    },
+    "Which entrance leads to gold?" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Welcher Eingang führt zum Gold?"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quelle entrée mène à l'or ?"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quale ingresso conduce all'oro?"
+          }
+        }
+      }
+    },
+    "You answered %lld questions correctly." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du hast %lld Fragen richtig beantwortet."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vous avez répondu correctement à %lld questions."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hai risposto correttamente a %lld domande."
+          }
+        }
+      }
+    },
+    "You answered incorrectly." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du hast falsch geantwortet."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vous avez répondu incorrectement"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hai risposto in modo errato."
+          }
+        }
+      }
+    },
+    "You have passed this level!" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du hast dieses Level geschafft!"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vous avez réussi ce niveau!"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hai superato questo livello!"
+          }
+        }
+      }
+    },
+    "Your answer is correct!" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deine Antwort ist richtig!"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Votre réponse est correcte"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La tua risposta è corretta!"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
