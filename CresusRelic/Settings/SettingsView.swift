@@ -18,7 +18,7 @@ struct SettingsView: View {
     
     @State private var isFirstShown = false
     @State private var isSecondShown = false
-
+    
     
     var body: some View {
         ZStack {
@@ -104,6 +104,7 @@ struct SettingsView: View {
                 
                 Button {
                     isFirstShown.toggle()
+                    showContact()
                 } label: {
                     ZStack {
                         Image("buttonBG1")
@@ -124,6 +125,7 @@ struct SettingsView: View {
                 
                 Button {
                     isSecondShown.toggle()
+                    showPrivacy()
                 } label: {
                     ZStack {
                         Image("buttonBG1")
@@ -165,19 +167,23 @@ struct SettingsView: View {
                 Spacer()
             }
         }
-        .sheet(isPresented: $isFirstShown) {
-            PrivacyPolicyWrapper(privacyURL: "https://sites.google.com/view/cresusrelic/privacy-policy")
-                .presentationDetents([.height(size().height / 1.15)])
-        }
-        .sheet(isPresented: $isSecondShown) {
-            PrivacyPolicyWrapper(privacyURL: "https://sites.google.com/view/cresusrelic/contact-us")
-                .presentationDetents([.height(size().height / 1.15)])
-        }
     }
     
     func rateApp() {
         if let scene = UIApplication.shared.connectedScenes.first as? UIWindowScene {
             SKStoreReviewController.requestReview(in: scene)
+        }
+    }
+    
+    func showPrivacy() {
+        if let url = URL(string: "https://sites.google.com/view/cresusrelic/privacy-policy") {
+            UIApplication.shared.open(url)
+        }
+    }
+    
+    func showContact() {
+        if let url = URL(string: "https://sites.google.com/view/cresusrelic/contact-us") {
+            UIApplication.shared.open(url)
         }
     }
 }
