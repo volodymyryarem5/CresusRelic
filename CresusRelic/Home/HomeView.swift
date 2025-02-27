@@ -88,20 +88,20 @@ struct HomeView: View {
                     ZStack {
                         Image("lavr")
                             .resizable()
-                            .frame(width: 250, height: 250)
+                            .frame(width: 200, height: 200)
                             .shadow(radius: 10)
                         
                         VStack {
                             Text("Cresus")
                                 .multilineTextAlignment(.center)
-                                .font(.custom("Macedonia3DFilled-Regular", size: 90))
+                                .font(.custom("Macedonia3DFilled-Regular", size: 80))
                                 .foregroundStyle(LinearGradient(colors: [.semiYellow, .semiBrown], startPoint: .top, endPoint: .bottom))
                                 .shadow(color: .white, radius: 1)
                                 .shadow(color: .white, radius: 1)
                                 .shadow(color: .white, radius: 1)
                             Text("Relic")
                                 .multilineTextAlignment(.center)
-                                .font(.custom("Macedonia3DFilled-Regular", size: 90))
+                                .font(.custom("Macedonia3DFilled-Regular", size: 80))
                                 .foregroundStyle(LinearGradient(colors: [.semiYellow, .semiBrown], startPoint: .top, endPoint: .bottom))
                                 .shadow(color: .white, radius: 1)
                                 .shadow(color: .white, radius: 1)
@@ -114,12 +114,30 @@ struct HomeView: View {
                     Spacer()
                     
                     //MARK: - BUTTONS
+                    NavigationLink(value: "History") {
+                        ZStack {
+                            Image("buttonBG1")
+                                .resizable()
+                                .scaledToFill()
+                                .frame(width: size().width - 50, height: 100)
+                            
+                            Text("LEARN HISTORY")
+                                .foregroundStyle(LinearGradient(colors: [.lightGreen, .semiGreen, .darkGreen], startPoint: .top, endPoint: .bottom))
+                                .font(.custom("Macedonia-Regular", size: 44))
+                                .shadow(color: .white, radius: 1)
+                                .shadow(color: .white, radius: 1)
+                                .shadow(color: .white, radius: 1)
+                                .padding(.top, 5)
+                        }
+                        
+                    }
+                    
                     NavigationLink(value: "Era") {
                         ZStack {
                             Image("buttonBG1")
                                 .resizable()
                                 .scaledToFill()
-                                .frame(width: size().width - 50, height: 120)
+                                .frame(width: size().width - 50, height: 100)
                             
                             Text("START JOURNEY")
                                 .foregroundStyle(LinearGradient(colors: [.lightGreen, .semiGreen, .darkGreen], startPoint: .top, endPoint: .bottom))
@@ -224,6 +242,12 @@ struct HomeView: View {
                         .navigationBarBackButtonHidden()
                 case "Levels":
                     LevelsView(path: $path, managment: managment)
+                        .navigationBarBackButtonHidden()
+                case "History":
+                    HistoryView(path: $path)
+                        .navigationBarBackButtonHidden()
+                case "Lydia":
+                    LydiaTopicsView(path: $path)
                         .navigationBarBackButtonHidden()
                 default: EraSelectionView(path: $path)
                         .navigationBarBackButtonHidden()
